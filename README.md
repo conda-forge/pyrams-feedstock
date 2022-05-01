@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyrams-feedstock/blob/main/LICENSE.txt)
 
-Summary: Set of tools for working with RAMS data
+Summary: Set of tools for working with RAMS model data. Documentation can be found here https://pyrams.readthedocs.io/en/stable/?badge=stable
 
 Current build status
 ====================
