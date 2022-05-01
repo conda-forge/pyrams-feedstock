@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/lsterzinger/pyrams
-  summary: Set of tools for working with RAMS data
+  summary: Set of tools for working with RAMS model data. Documentation can be found here https://pyrams.readthedocs.io/en/stable/?badge=stable
   license: MIT
   license_file: LICENSE
 
