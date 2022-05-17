@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyrams-{{ version }}.tar.gz
-  sha256: c3cb0d40ce405fd71a71134c0ab8edc554237b552683c99af01d36dc3d64bf3d
+  sha256: 41abbfda182b800b882195d0a0584804703248879d05c4a4276f1f71858e487d
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/lsterzinger/pyrams
-  summary: Set of tools for working with RAMS data
+  summary: Set of tools for working with RAMS model data. Documentation can be found here https://pyrams.readthedocs.io/en/stable/?badge=stable
   license: MIT
   license_file: LICENSE
 
