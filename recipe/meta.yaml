@@ -1,5 +1,5 @@
 {% set name = "pyrams" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyrams-{{ version }}.tar.gz
-  sha256: a9ef8f1cd6e12f86d6b1bd24d185e75dfc06cd8446b075ee30e92ab8a9fedbd0
+  sha256: 60274bc323d06e8c7d367a84b9619929aafd6fc13c5c321696a89e0b1f4d5ea9
 
 build:
   noarch: python
